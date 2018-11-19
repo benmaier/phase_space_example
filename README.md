@@ -21,7 +21,7 @@ and then integrated it to obtain a limit cycle in phase space.
 
 ![pendulum-single-run](https://github.com/benmaier/phase_space_example/raw/master/pendulum_single_run.png)
 
-In [02_scan_pendulum.py](https://github.com/benmaier/phase_space_example/raw/master/02_scan_pendulum.py) 
+In [`02_scan_pendulum.py`](https://github.com/benmaier/phase_space_example/raw/master/02_scan_pendulum.py) 
 I added a few lines of code to illustrate how one would scan different
 initial conditions and parameters to see how the trajectories change.
 
