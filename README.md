@@ -28,7 +28,7 @@ initial conditions and parameters to see how the trajectories change.
 ![pendulum-scan](https://github.com/benmaier/phase_space_example/raw/master/pendulum_scan.png)
 
 In [`03_ode_example_lotka_volterra.py`](https://github.com/benmaier/phase_space_example/blob/master/03_ode_example_lotka_volterra.py), 
-I show how to integrate a Lotka-Volterra system and how
+I show how to integrate a [Lotka-Volterra system](https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations) and how
 to plot both the time evolution as well as the phase space trajectory.
 
 ![lotka-volterra](https://github.com/benmaier/phase_space_example/raw/master/rabbits_foxes_phase_space.png)
@@ -36,7 +36,7 @@ to plot both the time evolution as well as the phase space trajectory.
 ![lotka-volterra-2](https://github.com/benmaier/phase_space_example/raw/master/rabbits_foxes_trajectories.png)
 
 Finally, in [`04_ode_example_lorenz.py`](https://github.com/benmaier/phase_space_example/blob/master/04_ode_example_lorenz.py),
-I replicated the figures from Dave's lecture for the Lorenz system. 
+I replicated the figures from Dave's lecture for the [Lorenz system](https://en.wikipedia.org/wiki/Lorenz_system).
 Playing around with this system is the most fun because it shows chaotic behavior.
 
 
