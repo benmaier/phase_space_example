@@ -15,19 +15,19 @@ or [download a zip-file](https://github.com/benmaier/phase_space_example/archive
 # Content
 
 As an illustration example, you could begin with a [simple pendulum](https://bit.ly/2N5azyx). In
-[`01_ode_example_pendulum.py`](https://github.com/benmaier/phase_space_example/raw/master/01_ode_example_pendulum.py), 
+[`01_ode_example_pendulum.py`](https://github.com/benmaier/phase_space_example/blob/master/01_ode_example_pendulum.py), 
 I illustrated how to write down the equations of motion as a function
 and then integrated it to obtain a limit cycle in phase space.
 
 ![pendulum-single-run](https://github.com/benmaier/phase_space_example/raw/master/pendulum_single_run.png)
 
-In [`02_scan_pendulum.py`](https://github.com/benmaier/phase_space_example/raw/master/02_scan_pendulum.py) 
+In [`02_scan_pendulum.py`](https://github.com/benmaier/phase_space_example/blob/master/02_scan_pendulum.py) 
 I added a few lines of code to illustrate how one would scan different
 initial conditions and parameters to see how the trajectories change.
 
 ![pendulum-scan](https://github.com/benmaier/phase_space_example/raw/master/pendulum_scan.png)
 
-In [`03_ode_example_lotka_volterra.py`](https://github.com/benmaier/phase_space_example/raw/master/03_ode_example_lotka_volterra.py), 
+In [`03_ode_example_lotka_volterra.py`](https://github.com/benmaier/phase_space_example/blob/master/03_ode_example_lotka_volterra.py), 
 I show how to integrate a Lotka-Volterra system and how
 to plot both the time evolution as well as the phase space trajectory.
 
@@ -35,7 +35,7 @@ to plot both the time evolution as well as the phase space trajectory.
 
 ![lotka-volterra-2](https://github.com/benmaier/phase_space_example/raw/master/rabbits_foxes_trajectories.png)
 
-Finally, in [`04_ode_example_lorenz.py`](https://github.com/benmaier/phase_space_example/raw/master/04_ode_example_lorenz.py),
+Finally, in [`04_ode_example_lorenz.py`](https://github.com/benmaier/phase_space_example/blob/master/04_ode_example_lorenz.py),
 I replicated the figures from Dave's lecture for the Lorenz system. 
 Playing around with this system is the most fun because it shows chaotic behavior.
 
