@@ -44,7 +44,6 @@ fig = pl.figure(figsize=(12,6))
 
 for irho, rho in enumerate(rhos):
 
-    print(rho)
     # initialize integrator
     r = ode(dL_over_dt)
 
