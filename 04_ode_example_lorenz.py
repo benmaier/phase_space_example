@@ -103,4 +103,5 @@ for irho, rho in enumerate(rhos):
 
 
 fig.tight_layout()
+fig.savefig('lorenz.png',dpi=300)
 pl.show()

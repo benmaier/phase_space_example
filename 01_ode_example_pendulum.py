@@ -85,4 +85,6 @@ pl.plot(angle, angular_momentum,'-',lw=1)
 pl.xlabel('angle $x$')
 pl.ylabel('angular momentum $v$')
 
+pl.gcf().savefig('pendulum_single_run.png',dpi=300)
+
 pl.show()

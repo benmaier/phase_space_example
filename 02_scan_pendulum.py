@@ -112,4 +112,6 @@ for l in np.logspace(-1,1,4,base=2):
 
 pl.gcf().tight_layout()
 
+pl.gcf().savefig('pendulum_scan.png',dpi=300)
+
 pl.show()

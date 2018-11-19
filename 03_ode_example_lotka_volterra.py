@@ -77,6 +77,7 @@ pl.plot(rabbits, foxes,'-',lw=1)
 pl.xlabel('amount of rabbits $R$')
 pl.ylabel('amount of foxes $F$')
 pl.title('phase space')
+pl.gcf().savefig('rabbits_foxes_phase_space.png',dpi=300)
 
 pl.figure()
 pl.plot(t, rabbits, label='rabbits')
@@ -84,6 +85,7 @@ pl.plot(t, foxes, label='foxes')
 pl.xlabel('time $t$')
 pl.ylabel('amount of species')
 pl.legend()
+pl.gcf().savefig('rabbits_foxes_trajectories.png',dpi=300)
 
 
 pl.show()
